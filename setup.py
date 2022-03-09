@@ -6,16 +6,16 @@ README = open(os.path.join(here, 'README.rst')).read()
 CHANGES = open(os.path.join(here, 'CHANGES.rst')).read()
 
 requires = [
-    'celery==4.1.0',
-    'requests==2.18.4',
-    'redis==2.10.6',
-    'beautifulsoup4==4.6.0',
-    'docopt==0.6.2',
-    'pathvalidate==0.16.2',
-    'lxml==4.2.5',
-    'jsonpointer==1.12',
-    'clint==0.5.1',
-    'awesome-slugify==1.6.5',
+    'celery>=4.1.0',
+    'requests>=2.18.4',
+    'redis>=3.5.0',
+    'beautifulsoup4>=4.6.0',
+    'docopt>=0.6.2',
+    'pathvalidate>=0.16.2',
+    'lxml>=4.2.5',
+    'jsonpointer>=1.12',
+    'clint>=0.5.1',
+    'awesome-slugify>=1.6.5',
 ]
 
 test_requires = [
